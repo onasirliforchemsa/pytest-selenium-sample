@@ -1,3 +1,4 @@
 selenium>=3.14
 pytest-selenium
 pytest-parallel
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
